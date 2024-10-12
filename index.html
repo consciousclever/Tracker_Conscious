@@ -1,0 +1,59 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial Fraud Detection Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="dashboard">
+        <h1>Financial Fraud Detection Dashboard</h1>
+        <div class="row">
+          <div class="col-4">
+            <h2>Transaction Data</h2>
+            <table id="transaction-data">
+              <tr>
+                <th>Transaction ID</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+              </tr>
+              <tr>
+                <td>12345</td>
+                <td>$100.00</td>
+                <td>Food</td>
+                <td>2022-01-01</td>
+              </tr>
+              <!-- ... -->
+            </table>
+          </div>
+          <div class="col-4">
+            <h2>Fraud Detection Analysis</h2>
+            <div id="fraud-detection-analysis">
+              <!-- ... -->
+            </div>
+          </div>
+          <div class="col-4">
+            <h2>Trace Analysis</h2>
+            <div id="trace-analysis">
+              <canvas id="trace-analysis-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
